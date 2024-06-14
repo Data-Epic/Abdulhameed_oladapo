@@ -42,6 +42,8 @@ todo.add_task("Brush teeth")
 todo.add_task("Perform ablution")
 # add a task
 todo.add_task('Pray')
+# add a task
+todo.add_task("Take a bath")
 # mark third task as complete
 todo.mark_as_complete(2)
 todo.mark_as_complete(3)
