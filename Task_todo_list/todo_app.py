@@ -2,7 +2,7 @@
 # Create Class Todolist
 class Todolist:
 
-	# Initiate class Todolist with "date" and list("tasks") class attributes
+	# Initiate class Todolist with "date" and list of ("tasks") class attributes
     def __init__(self, date, tasks = []):
     	self.date = date
     	self.tasks = tasks
@@ -33,7 +33,7 @@ class Todolist:
 #Test ----------------------------------------------------
 
 # instance of the class Todolist
-todo = Todolist("20/05/2024", [])
+todo = Todolist("20/05/2024")
 # add a task
 todo.add_task("Wake up")
 # add a task
